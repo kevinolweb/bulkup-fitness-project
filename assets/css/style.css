@@ -50,7 +50,7 @@ ul li .active{
 #container{
     margin:0px;
     padding:0px;
-    height:650px;
+    height:100vh;
     position:relative;
     overflow:hidden;
     border:1px solid black;
@@ -60,7 +60,9 @@ ul li .active{
 
 #hero{
     width:100%;
-    height:650px;
+    padding:0px;
+    margin:0px;
+    height:100vh;
     background-color: rgba(0, 0, 0, .6);
 }
 
@@ -158,4 +160,49 @@ ul li .active{
     -webkit-transform: scale(2,3);
     -ms-transform: scale(2,3);
     transform: scale(2,3);
+}
+
+#tagline{
+    color:white;
+    text-align:center;
+    top:40%;
+    position:relative;
+    font-size:4em;
+}
+
+.about{
+    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-left{
+        width: 33.333%;
+        height: 50vh;
+        padding: 80px 20px;
+        background-color: rgba(255, 1, 1, 0.811);
+        color:white;
+        clear:both;
+}
+.about2{
+    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-color: #3d3939;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    clear:both;
+}
+.about-right{
+    width: 33.333%;
+    float:right;
+    height: 50vh;
+    padding: 80px 20px;
+    background-color: rgba(255, 1, 1, 0.811);
+    color:white;
+    position:relative;
 }
