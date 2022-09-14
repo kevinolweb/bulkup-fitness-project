@@ -96,17 +96,17 @@ ul li .active{
 
 #table-intro{
     height:650px;
-    width:920px;
-    margin-top:50px;
+    width:1220px;
+    margin-top:30px;
     position:relative;
     margin:0 auto;
     box-sizing:border-box;
 }
 
 #table-intro h2{
-    text-align: center;
-    padding:30px 0px;
+    padding:10px 0px;
     font-size:2em;
+    margin:30px 10px;
 }
 .table-cols{
     width:33.33%;
@@ -208,43 +208,40 @@ ul li .active{
 }
 
 /*recipes.html */
-.page-container{
-    margin:20px;
+.inner-page-container{
     padding:10px;
 }
-.flex-row{
+.item-cards-wrapper{
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
     flex-direction: row;
+    justify-content: center;
+    height:100vh;
 }
 
-.box-item{
-    background-color:blue;
+.item-card{
+    background-color:white;
     height:400px;
-    position:relative;
     margin:10px;
-    padding: 5px;
-
+    width:300px;
+    border-radius:25px 0px 25px 0px;
+    box-shadow: 4px 2px 19px -4px rgba(145,145,145,0.75);
+    -webkit-box-shadow: 4px 2px 19px -4px rgba(145,145,145,0.75);
+    -moz-box-shadow: 4px 2px 19px -4px rgba(145,145,145,0.75);
 }
-.box-outer{
-    /*width:33%;*/
-    flex-grow: 1;
+.item-card-image{
+    height:200px;
+    border-radius:25px 0px 0px 0px;
+    background-color:red;
+    background-size: cover;
+    margin-bottom:15px;
 }
-
-.box-red{
-    background-color:#d31245;
-    height:400px;
-    position:relative;
-    margin:10px;
-    padding: 5px;
-}
-.box-links{
-    color:white;
-    top:40%;
-    left:0%;
-    right:0%;
-    text-align: center;
+.item-one{
+    background:url('https://cdn.pixabay.com/photo/2018/03/29/12/19/oats-3272113_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*pricing table */
 .pricing-table{
@@ -296,4 +293,8 @@ ul li .active{
     margin:0px;
     padding:15px 0px;
     cursor:pointer;
+}
+
+#table-intro p{
+    margin-bottom:30px;
 }
