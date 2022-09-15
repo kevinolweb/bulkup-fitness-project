@@ -105,7 +105,7 @@ ul li .active{
 
 #table-intro h2{
     padding:10px 0px;
-    font-size:2em;
+    font-size:2.5em;
     margin:30px 10px;
 }
 .table-cols{
@@ -297,6 +297,7 @@ ul li .active{
 
 #table-intro p{
     margin-bottom:30px;
+    font-size:1.5em;
 }
 
 /*exercises.html */
@@ -327,4 +328,14 @@ ul li .active{
 
 .exercise-head >p {
     font-size: 1.5em;
+}
+
+/* Contact us Page*/
+#contact-form{
+    top:45%;
+    position:relative;
+    float:right;
+    background-color: black;
+    padding:30px 30px;
+    border-radius:15px;
 }
