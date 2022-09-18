@@ -30,13 +30,6 @@ ul li .active{
     border-bottom:1px solid red;
     padding-bottom:5px;
 }
-
-#menu-item a:hover{
-    border-bottom:1px solid red;
-    padding-bottom:5px;
-    transition: 0.3s;
-}
-
 #menu-item{
     float:right;
     font-size: 1.5em;
@@ -339,3 +332,73 @@ ul li .active{
     padding:30px 30px;
     border-radius:15px;
 }
+/* Mobile styles exercises.html */
+
+@media screen and (max-width:900px){
+    #photo-gallery{
+        column-count: 2;
+        column-gap: 0;
+        line-height: 0;
+        margin:50px 20px;
+    }
+    #tagline{
+        font-size:3em;
+    }
+/* Mobile Nav */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+.topnav #main-menu {
+    display: none;
+    clear:both;
+  }
+#menu-item{
+    float:none;
+    padding-top:5px;
+  }
+#menu-item a{
+    color:white;
+}
+#menu-item a:hover{
+    color:black;
+}
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+  }
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+.topnav a:hover {
+    color: white;
+  }
+  
+ul > li{
+    display:block;
+  }
+ul li .active{
+    text-decoration:none;
+    color:red;
+}
+}
+/* Remove styles for Desktop */
+@media screen and (min-width:901px){
+    #menu-item a:hover{
+        border-bottom:1px solid red;
+        padding-bottom:5px;
+        transition: 0.3s;
+    }
+    #mobile-btn{
+        display:none;
+    }
+    }
