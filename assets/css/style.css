@@ -239,19 +239,19 @@ ul li .active{
     background-size: cover;
 }
 .item-two{
-    background:url('assets/images/rice-dish.jpg');
+    background:url('/assets/images/rice-dish.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-three{
-    background:url('assets/images/turkey.jpg');
+    background:url('../images/turkey.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-four{
-    background:url('assets/images/steak.jpg');
+    background:url('images/steak.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
