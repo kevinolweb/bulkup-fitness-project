@@ -4,7 +4,7 @@ Bulk up was created to help people who wish to improve their fitness and build m
 
 View the live link [here](https://bulkup.com)
 
-##Features
+##h2Features
 The website has different features which each combine to provide a good user experience and help people find the information they want quickly and effectively.
 In this section, you should go over the different parts of your project and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
