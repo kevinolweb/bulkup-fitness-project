@@ -60,7 +60,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('assets/images/hero.jpg')no-repeat center center;
+    background:url('../images/hero.jpg')no-repeat center center;
     background-size:cover;
 }
 
@@ -233,13 +233,13 @@ ul li .active{
     margin-bottom:15px;
 }
 .item-one{
-    background:url('/images/oatmeal.jpg');
+    background:url('../images/oatmeal.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-two{
-    background:url('/assets/images/rice-dish.jpg');
+    background:url('../images/rice-dish.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,7 +251,7 @@ ul li .active{
     background-size: cover;
 }
 .item-four{
-    background:url('images/steak.jpg');
+    background:url('../images/steak.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -329,7 +329,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('assets/images/exercises.jpg')no-repeat center center;
+    background:url('../images/exercises.jpg')no-repeat center center;
     background-size:cover;
 }
 #photo-gallery{
@@ -368,7 +368,7 @@ ul li .active{
     height:100vh;
     position:relative;
     overflow:hidden;
-    background:url('assets/images/contactus.jpg')no-repeat center center;
+    background:url('../images/contactus.jpg')no-repeat center center;
     background-size:cover;
 }
 #form-wrapper{
