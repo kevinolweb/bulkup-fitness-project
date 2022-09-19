@@ -60,7 +60,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('/assets/images/hero.jpg')no-repeat center center;
+    background:url('assets/images/hero.jpg')no-repeat center center;
     background-size:cover;
 }
 
@@ -178,43 +178,6 @@ ul li .active{
     font-size:4em;
 }
 
-.about{
-    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.about-left{
-        width: 33.333%;
-        height: 50vh;
-        padding: 80px 20px;
-        background-color: rgba(255, 1, 1, 0.811);
-        color:white;
-        clear:both;
-}
-.about2{
-    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-color: #3d3939;
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    clear:both;
-}
-.about-right{
-    width: 33.333%;
-    float:right;
-    height: 50vh;
-    padding: 80px 20px;
-    background-color: rgba(255, 1, 1, 0.811);
-    color:white;
-    position:relative;
-}
-
 /*recipes.html */
 #recipe-container{
     margin:0px;
@@ -223,7 +186,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('/assets/images/berries.jpg')no-repeat center center;
+    background:url('assets/images/berries.jpg')no-repeat center center;
     background-size:cover;
     background-color: black;
 }
@@ -270,25 +233,25 @@ ul li .active{
     margin-bottom:15px;
 }
 .item-one{
-    background:url('/assets/images/oatmeal.jpg');
+    background:url('assets/images/oatmeal.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-two{
-    background:url('/assets/images/rice-dish.jpg');
+    background:url('assets/images/rice-dish.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-three{
-    background:url('/assets/images/turkey.jpg');
+    background:url('assets/images/turkey.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item-four{
-    background:url('/assets/images/steak.jpg');
+    background:url('assets/images/steak.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +329,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('/assets/images/exercises.jpg')no-repeat center center;
+    background:url('assets/images/exercises.jpg')no-repeat center center;
     background-size:cover;
 }
 #photo-gallery{
@@ -405,7 +368,7 @@ ul li .active{
     height:100vh;
     position:relative;
     overflow:hidden;
-    background:url('/assets/images/contactus.jpg')no-repeat center center;
+    background:url('assets/images/contactus.jpg')no-repeat center center;
     background-size:cover;
 }
 #form-wrapper{
