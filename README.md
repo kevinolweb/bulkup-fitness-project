@@ -1,7 +1,7 @@
 # bulkup-fitness-project
 Bulk up was created to help people who wish to improve their fitness and build muscle. It is aimed at predominantly young males who are ever increasingly obsessed with the gym and their appearance. BulkUp aims to provide dietary information, fitness regimes and general information on how people can increase their muscle density. People will come to the website in order to get healthy high protein meal ideas, gym plans or learn new exercises while also reading our blogs to become more information to achieve their gym goals.
 
-
+<img src="/assets/images/bulkup-preview.jpg"/>
 View the live link [here](https://kevinolweb.github.io/bulkup-fitness-project/)
 
 ## Features
