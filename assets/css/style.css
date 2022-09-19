@@ -20,7 +20,7 @@ body{
 
 #menu-item a{
     text-decoration:none;
-    color:red;
+    color:white;
 }
 
 
@@ -201,9 +201,29 @@ ul li .active{
 }
 
 /*recipes.html */
+#recipe-container{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    border:1px solid black;
+    background:url('https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277_960_720.jpg')no-repeat center center;
+    background-size:cover;
+}
 .inner-page-container{
     padding:10px;
 }
+
+.inner-page-container >h2{
+    margin:2%;
+    text-align:center;
+}
+.inner-page-container >p{
+    margin:2%;
+    text-align:center;
+}
+
 .item-cards-wrapper{
     display:flex;
     flex-wrap: wrap;
@@ -231,11 +251,33 @@ ul li .active{
     margin-bottom:15px;
 }
 .item-one{
+    background:url('/assets/images/oatmeal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-two{
+    background:url('/assets/images/rice-dish.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-three{
+    background:url('/assets/images/turkey.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-three{
     background:url('https://cdn.pixabay.com/photo/2018/03/29/12/19/oats-3272113_960_720.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.item-card h3,p {
+    padding:15px;
+}
+
 /*pricing table */
 .pricing-table{
     padding:80px 0px;
@@ -347,7 +389,7 @@ ul li .active{
 /* Mobile Nav */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: relative;
   }
 .topnav #main-menu {
@@ -362,7 +404,7 @@ ul li .active{
     color:white;
 }
 #menu-item a:hover{
-    color:black;
+    color:red;
 }
 .topnav a {
     color: white;
@@ -375,8 +417,8 @@ ul li .active{
     background: black;
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 20px;
+    top: 20px;
   }
   
 .topnav a:hover {
@@ -400,5 +442,9 @@ ul li .active{
     }
     #mobile-btn{
         display:none;
+    }
+    .inner-page-container>p{
+        padding:0% 10%;
+        text-align: center;
     }
     }
