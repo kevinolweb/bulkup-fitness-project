@@ -18,6 +18,10 @@ body{
     padding-top:30px;
     color:white;
 }
+
+#pricing{
+    margin-top:200px;
+}
 footer{
     margin-top:50px;
 }
@@ -56,7 +60,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')no-repeat center center;
+    background:url('/assets/images/hero.jpg')no-repeat center center;
     background-size:cover;
 }
 
@@ -149,6 +153,8 @@ ul li .active{
 .callout-p{
     text-align: center;
     margin:30px auto 10px auto;
+    color:red;
+    font-weight:600;
 }
 .callout-p a::after{
     content: ">";
@@ -217,7 +223,7 @@ ul li .active{
     position:relative;
     overflow:hidden;
     border:1px solid black;
-    background:url('https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277_960_720.jpg')no-repeat center center;
+    background:url('/assets/images/berries.jpg')no-repeat center center;
     background-size:cover;
     background-color: black;
 }
@@ -339,8 +345,12 @@ ul li .active{
     bottom:0px;
     font-size: 1em;
     margin:0px;
-    padding:15px 0px;
+    padding:15px 30px;
     cursor:pointer;
+}
+.sign-up-btn:hover{
+    background:white;
+    color:black;
 }
 
 #table-intro p{
@@ -349,6 +359,16 @@ ul li .active{
 }
 
 /*exercises.html */
+#exercisecontainer{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    border:1px solid black;
+    background:url('/assets/images/exercises.jpg')no-repeat center center;
+    background-size:cover;
+}
 #photo-gallery{
     column-count: 4;
     column-gap: 0;
@@ -379,6 +399,15 @@ ul li .active{
 }
 
 /* Contact us Page*/
+#contact-container{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    background:url('/assets/images/contactus.jpg')no-repeat center center;
+    background-size:cover;
+}
 #form-wrapper{
     padding:30px 30px;
     border-radius:15px;
@@ -387,10 +416,11 @@ ul li .active{
 }
 
 #submitbtn{
-    float:right;
     background-color: red;
     color:white;
-    padding:10px 20px;
+    padding:10px 30px;
+    width:200px;
+    font-size:16px;
 }
 input{
     border:1px solid #dcdcdc;
@@ -406,10 +436,8 @@ textarea{
     padding:5px;
 }
 #submitbtn:hover{
-    float:right;
     background-color: black;
     color:white;
-    padding:10px 20px;
     cursor:pointer;
 }
 #form-wrapper >hr{
@@ -447,7 +475,7 @@ footer >ul>li>a{
     #tagline{
         font-size:3em;
     }
-/* Mobile Nav */
+/* Mobile & Tablet Nav */
 .topnav {
     overflow: hidden;
     background-color: black;
@@ -495,6 +523,48 @@ ul li .active{
 }
 #fname, #sname, #number{
     width:200px;
+}
+#main-card{
+    padding:30px 30px;
+    width:100%;
+    height:200px;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius:60px 0px 60px 0px;
+    box-sizing:border-box;
+    clear:both;
+    display:block;
+    right:0%;
+    top:95%;
+}
+#tagline{
+    font-size:2em;
+}
+.subscription-box{
+    width:100%;
+    display:inline-block;
+    margin:1rem 0;
+}
+#recipe-price-box{
+    position:relative;
+    left:0%;
+    top:-20px;
+    background-color:red;
+    z-index:1;
+}
+#exercise-price-box{
+    position:relative;
+    background-color:rgb(199, 1, 1);
+    z-index:2;
+}
+#both-price-box{
+    position:relative;
+    background-color:rgb(148, 1, 1);
+    right: 0%;
+    top: 20px;
+    z-index:3
+}
+#table-area{
+    display:none;
 }
 }
 /* Remove styles for Desktop */
