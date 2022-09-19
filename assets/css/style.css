@@ -8,6 +8,7 @@
 body{
     font-family:Roboto sans-serif;
     color: #3d3939;
+    font-size:18px;
 }
 #logo{
     float:left;
@@ -17,7 +18,15 @@ body{
     padding-top:30px;
     color:white;
 }
-
+footer{
+    margin-top:50px;
+}
+footer >hr{
+    border-bottom:1px solid black;
+    width:70%;
+    text-align: center;
+    margin:auto;
+}
 #menu-item a{
     text-decoration:none;
     color:white;
@@ -213,15 +222,18 @@ ul li .active{
 }
 .inner-page-container{
     padding:10px;
+    margin:50px 20px;
 }
 
 .inner-page-container >h2{
     margin:2%;
     text-align:center;
+    font-size:2em;
 }
 .inner-page-container >p{
     margin:2%;
     text-align:center;
+    font-size:1.5em;
 }
 
 .item-cards-wrapper{
@@ -230,7 +242,7 @@ ul li .active{
     padding: 10px;
     flex-direction: row;
     justify-content: center;
-    height:100vh;
+    margin-bottom:100px;
 }
 
 .item-card{
@@ -268,8 +280,8 @@ ul li .active{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.item-three{
-    background:url('https://cdn.pixabay.com/photo/2018/03/29/12/19/oats-3272113_960_720.jpg');
+.item-four{
+    background:url('/assets/images/steak.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -373,6 +385,24 @@ ul li .active{
     background-color: black;
     padding:30px 30px;
     border-radius:15px;
+}
+
+
+/*Footer */
+footer{
+    height:100px;
+    text-align: center;
+}
+
+footer >ul>li{
+    display: inline-block;
+    margin:2%;
+    padding:20px;
+    font-size:1.5em;
+}
+
+footer >ul>li>a{
+    color:black;
 }
 /* Mobile styles exercises.html */
 
