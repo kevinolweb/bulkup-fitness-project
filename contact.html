@@ -21,14 +21,44 @@
                 </ul>
             </nav>
         </header>
-        <form id="contact-form">
-            <label for="fname">First Name</label>
-            <input type="text" name="fname">
-            <input type="submit" value="Send">
-        <h2>More Strenght, More Muscle</h2>
-        </form>
+        <h1 id="tagline">Get in Touch!</h1>
 </div>
-        </section>
+    </section>
+    <section>
+        <div id="form-wrapper">
+        <h2>Send Us a Message</h2><hr/>
+        <form action="contact.html" method="POST" id="contact-form">
+            <div>
+            <label for="fname">First Name</label><br>
+            <input id="fname" type="text" name="fname" placeholder="Enter First Name"></div>
+            <div>
+            <label for="sname">Second Name</label><br>
+            <input id="sname" type="text" name="sname" placeholder="Enter Second Name">
+            </div>
+            <div>
+            <label for="num">Phone Number</label><br>
+            <input id="number" type="number" name="num" placeholder="Enter Phone No.">
+            </div>
+            <div>
+                <p><strong>Which subscription interests you:</strong></p>
+                <input type="checkbox" id="exercises-checkbox" name="exercises">
+                <label for="exercises-checkbox">Exercises Plan</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="recipes-checkbox" name="recipes">
+                <label for="recipes-checkbox">Recipes Plan</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="both-checkbox" name="both">
+                <label for="both-checkbox">Exercise & Recipes Plan</label><br><br>
+            </div>
+        <div>
+            <label for="comments">Your Message</label>
+        <br>
+        <textarea name="comments" id="message" placeholder="Please enter message" rows="10" cols="40"> </textarea></div>
+            <input type="submit" id="submitbtn" value="Send">
+        </form>
+        </div>
     </section>
 <script type="text/javascript" src="../assets/javascript/nav.js"></script>
    

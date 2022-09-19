@@ -219,6 +219,7 @@ ul li .active{
     border:1px solid black;
     background:url('https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277_960_720.jpg')no-repeat center center;
     background-size:cover;
+    background-color: black;
 }
 .inner-page-container{
     padding:10px;
@@ -378,15 +379,45 @@ ul li .active{
 }
 
 /* Contact us Page*/
-#contact-form{
-    top:45%;
-    position:relative;
-    float:right;
-    background-color: black;
+#form-wrapper{
     padding:30px 30px;
     border-radius:15px;
+    margin:20px;
+    max-width:600px;
 }
 
+#submitbtn{
+    float:right;
+    background-color: red;
+    color:white;
+    padding:10px 20px;
+}
+input{
+    border:1px solid #dcdcdc;
+    margin:10px;
+    padding:5px;
+}
+#fname, #sname, #number{
+    width:350px;
+}
+textarea{
+    border:1px solid #dcdcdc;
+    margin:10px;
+    padding:5px;
+}
+#submitbtn:hover{
+    float:right;
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    cursor:pointer;
+}
+#form-wrapper >hr{
+    border-bottom:2px solid red;
+    width:20%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
 
 /*Footer */
 footer{
@@ -461,6 +492,9 @@ ul > li{
 ul li .active{
     text-decoration:none;
     color:red;
+}
+#fname, #sname, #number{
+    width:200px;
 }
 }
 /* Remove styles for Desktop */
